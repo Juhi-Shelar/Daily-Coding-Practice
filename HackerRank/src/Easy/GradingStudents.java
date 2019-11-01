@@ -1,5 +1,6 @@
 // Date: 01.10.2019
 // Problem Statement: https://www.hackerrank.com/challenges/grading/problem
+// Difficulty: Easy
 
 package Easy;
 
