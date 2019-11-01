@@ -1,3 +1,6 @@
+// Date: 01.10.2019
+// Problem Statement: https://www.hackerrank.com/challenges/grading/problem
+
 package Easy;
 
 import java.io.BufferedReader;
