@@ -8,13 +8,14 @@ public class ClosingTweets {
 		n = sc.nextInt();
 		k = sc.nextInt();
 		
-		sc.useDelimiter("\n"); // use LF as the delimiter
-
+		//sc.useDelimiter("\n"); // use LF as the delimiter
+       sc.nextLine();
 		
 		String clicks[] = new String[k];
 		
 		for(int i=0;i<k;i++) {
-			clicks[i]=sc.next();
+			clicks[i]=sc.nextLine();
+		//	System.out.println(clicks[i]+'j');
 		}
 		
 		boolean state[] = new boolean[k];
@@ -27,7 +28,8 @@ public class ClosingTweets {
 				Arrays.fill(state, false);
 			}
 			else {
-				int num = Integer.parseInt(clicks[i].substring(6, 7));
+			   // System.out.println(clicks[i].length()+""+clicks[i]);
+				int num = Integer.parseInt(clicks[i].substring(6,clicks[i].length()));
 						
 				if(state[num-1]==true) {
 					state[num-1] = false;
