@@ -11,7 +11,7 @@ public class Kangaroo {
 			return false;
 		
 		while(true) {
-			if(x1>1000 || x2>1000)
+			if(x1>100000000 || x2>100000000)
 				return false;
 			if(x1==x2)
 				return true;
